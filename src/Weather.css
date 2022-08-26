@@ -9,9 +9,8 @@
   line-height: 29px;
   margin: 20px 0 0 0;
 }
-.Weather img {
+.Weather canvas {
   display: inline-block;
-  height: 64px;
   margin-right: 10px;
 }
 .Weather ul {
