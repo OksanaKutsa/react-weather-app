@@ -4,7 +4,6 @@ import axios from "axios";
 
 import WeatherForecast from "./WeatherForecast";
 import WeatherInfo from "./WeatherInfo";
-import MainCities from "./MainCities";
 
 export default function Weather(props) {
   const [city, setCity] = useState(props.defaultcity);
@@ -63,7 +62,6 @@ export default function Weather(props) {
         </form>
         <WeatherInfo data={weatherData} />
         <WeatherForecast coordinates={weatherData.coordinates} />
-        <MainCities />
       </div>
     );
   } else {
